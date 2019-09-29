@@ -12,3 +12,4 @@ When using this lexicon, please cite the following paper:
   address = {Turku, Finland}
 }
 ```
+Code for replicating the experiments in the paper can be found here: https://github.com/ltgoslo/mtl_lex 
