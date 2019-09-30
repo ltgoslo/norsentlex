@@ -14,6 +14,7 @@ When using this lexicon, please cite the following paper:
   title = {Lexicon information in neural sentiment analysis: a multi-task learning approach},
   booktitle = {Proceedings of the 22nd Nordic Conference on Computational Linguistics},
   year = 2019,
+  url = "https://www.aclweb.org/anthology/W19-6119/", 
   address = {Turku, Finland}
 }
 ```
@@ -40,3 +41,4 @@ _Lexicon information in neural sentiment analysis: a multi-task learning approac
 Proceedings of the 22nd Nordic Conference on Computational Linguistics  
 Turku, Finland  
 2019
+URL: https://www.aclweb.org/anthology/W19-6119/
