@@ -25,8 +25,35 @@ We briefly describe the process of generating the lexicon(s) below, for further 
 
 The English lexicon of Hu and Liu (2004) was machine-translated and then manually inspected and corrected. If an English word had several senses that could be translated into different Norwegian words, these were manually added to the translations. All multi-word expressions were omitted, and only single-word translations have been included. Some words were also removed either because we found they did not fit into the positive or negative categories, or because we could not find an appropriate translation. We also removed all words listed as both positive and negative.
 
-This process resulted in a Norwegian sentiment lexicon containing a collection of 3,917 negative and 1,601 positive words. Similarly to the English lexicon, the resulting Norwegian lexicon contains a mix of word classes and inflected forms. However, using the Norwegian full-form lexicon SCARRIE, we expanded the entries to include all inflected forms, resulting in a lexicon of 14,839 negative words and 6,103 positive words. Both versions of the lexicon are made avilable here.
+This process resulted in a Norwegian sentiment lexicon containing a collection of 3,917 negative and 1,601 positive words. Similarly to the English lexicon, the resulting Norwegian lexicon contains a mix of word classes and inflected forms. However, using the Norwegian full-form lexicon SCARRIE, we expanded the entries to include all inflected forms, resulting in a lexicon of 14,839 negative words and 6,103 positive words. The translated lexicon is made available here: https://github.com/ltgoslo/mtl_lex  . The fullform lexicon is made available in this current repository.
 
+
+## Structure
+
+We make available fullform and lemma lexicons. The repository is structures as follows:
+
+```
+Lemma
+├── Lemma_ADJECTIVE_Negative_lexicon.txt
+├── Lemma_ADJECTIVE_Positive_lexicon.txt
+├── Lemma_NOUN_Negative_lexicon.txt
+├── Lemma_NOUN_Positive_lexicon.txt
+├── Lemma_PARTICIPLE_ADJECTIVE_Negative_lexicon.txt
+├── Lemma_PARTICIPLE_ADJECTIVE_Positive_lexicon.txt
+├── Lemma_VERB_Negative_lexicon.txt
+├── Lemma_VERB_Positive_lexicon.txt
+
+Fullform
+├── Fullform_Negative_lexicon.txt
+├── Fullform_Positive_lexicon.txt
+├── POS_Fullform_lexicon_Negative.json
+├── POS_Fullform_lexicon_Positive.json
+
+```
+
+The Lemma folder contains positive and negative lexicons for lemmas based on their POS, i.e. separate files for verbs, nouns, adjectives, and participle adjectives.
+
+The Fullform folder contains positive and negative lexicons such that the ".txt" files are list of words, while the ".json" files provide additional information about the POS of each word. 
 
 ## References: 
 
